@@ -15,10 +15,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void click(View v)
-    {
-        MediaPlayer mp = MediaPlayer.create(this, R.raw.samsung);
-        mp.start();
-    }
+//    public void click(View v)
+//    {
+//        MediaPlayer mp = MediaPlayer.create(this, R.raw.samsung);
+//        mp.start();
+//    }
 
 }
