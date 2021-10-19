@@ -5,30 +5,40 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/purple_200"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Simply Piano" />
-
     <Button
-        android:id="@+id/button"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:layout_toRightOf="@+id/tv"
+        android:id="@+id/o0keyD"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/white"
         android:onClick="click"
-        android:text="Click for Sound"
-        tools:ignore="UnknownId" />
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:layout_toRightOf="@+id/button"
-        android:layout_marginLeft="-20dp"
+        android:id="@+id/o0keyE"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="-25dp"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@+id/o0keyDsharp"
+        android:backgroundTint="@color/white"
+        android:onClick="click"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        />
+
+    <Button
+        android:id="@+id/o0keyDsharp"
+        android:layout_width="50dp"
+        android:layout_height="200dp"
+        android:layout_toRightOf="@+id/o0keyD"
+        android:layout_marginLeft="-25dp"
+        android:layout_marginTop="60dp"
         android:backgroundTint="@color/black"
-        android:text="Button" />
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        />
 
 </RelativeLayout>
