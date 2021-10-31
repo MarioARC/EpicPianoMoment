@@ -47,6 +47,8 @@ public class MainActivity4 extends AppCompatActivity implements AdapterView.OnIt
             case 4:
                 break;
             case 5:
+                intent = new Intent(MainActivity4.this, MainActivity5.class);
+                startActivity(intent);
                 break;
             case 6:
                 break;
@@ -58,4 +60,5 @@ public class MainActivity4 extends AppCompatActivity implements AdapterView.OnIt
     public void onNothingSelected(AdapterView<?> adapterView) {
 
     }
+
 }
