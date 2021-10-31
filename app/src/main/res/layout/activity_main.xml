@@ -17,12 +17,12 @@
 
     <Button
         android:id="@+id/o0keyA"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="50dp"
         android:layout_height="match_parent"
         android:layout_marginTop="60dp"
         android:backgroundTint="@color/white"
-        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-        />
+        android:onClick="click0a" />
 
     <Button
         android:id="@+id/o0keyB"
