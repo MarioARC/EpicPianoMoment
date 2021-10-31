@@ -3,6 +3,7 @@ package com.example.epicpianomoment;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -63,6 +64,78 @@ public class MainActivity3 extends AppCompatActivity implements AdapterView.OnIt
 
     public void onNothingSelected(AdapterView<?> adapterView) {
 
+    }
+
+    public void click3c(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.threec);
+        mp.start();
+    }
+
+    public void click3d(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.threed);
+        mp.start();
+    }
+
+    public void click3e(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.threee);
+        mp.start();
+    }
+
+    public void click3f(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.threef);
+        mp.start();
+    }
+
+    public void click3g(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.threeg);
+        mp.start();
+    }
+
+    public void click3a(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.threea);
+        mp.start();
+    }
+
+    public void click3b(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.threeb);
+        mp.start();
+    }
+
+    public void click3csharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.threecsharp);
+        mp.start();
+    }
+
+    public void click3dsharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.threedsharp);
+        mp.start();
+    }
+
+    public void click3fsharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.threefsharp);
+        mp.start();
+    }
+
+    public void click3gsharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.threegsharp);
+        mp.start();
+    }
+
+    public void click3asharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.threeasharp);
+        mp.start();
     }
 
 }
