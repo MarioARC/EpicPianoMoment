@@ -43,6 +43,8 @@ public class MainActivity3 extends AppCompatActivity implements AdapterView.OnIt
             case 3:
                 break;
             case 4:
+                intent = new Intent(MainActivity3.this, MainActivity4.class);
+                startActivity(intent);
                 break;
             case 5:
                 break;
