@@ -12,7 +12,7 @@ import android.widget.Spinner;
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
     private Spinner dropdown;
-    private static final String[] items = new String[]{"Octave 1", "Octave 2", "Octave 3", "Octave 4", "Octave 5", "Octave 6", "Octave 7"};
+    private static final String[] items = new String[]{"Select Octave", "Octave 1", "Octave 2", "Octave 3", "Octave 4", "Octave 5", "Octave 6", "Octave 7"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,14 +32,21 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             case 0:
                 break;
             case 1:
+                break;
+            case 2:
                 Intent intent = new Intent(MainActivity.this, MainActivity2.class);
                 startActivity(intent);
                 break;
-            case 2:
             case 3:
+                break;
             case 4:
+                break;
             case 5:
+                break;
             case 6:
+                break;
+            case 7:
+                break;
         }
     }
 
