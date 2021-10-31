@@ -3,6 +3,7 @@ package com.example.epicpianomoment;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -63,6 +64,78 @@ public class MainActivity4 extends AppCompatActivity implements AdapterView.OnIt
 
     public void onNothingSelected(AdapterView<?> adapterView) {
 
+    }
+
+    public void click4c(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.fourc);
+        mp.start();
+    }
+
+    public void click4d(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.fourd);
+        mp.start();
+    }
+
+    public void click4e(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.foure);
+        mp.start();
+    }
+
+    public void click4f(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.fourf);
+        mp.start();
+    }
+
+    public void click4g(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.fourg);
+        mp.start();
+    }
+
+    public void click4a(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.foura);
+        mp.start();
+    }
+
+    public void click4b(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.fourb);
+        mp.start();
+    }
+
+    public void click4csharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.fourcsharp);
+        mp.start();
+    }
+
+    public void click4dsharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.fourdsharp);
+        mp.start();
+    }
+
+    public void click4fsharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.fourfsharp);
+        mp.start();
+    }
+
+    public void click4gsharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.fourgsharp);
+        mp.start();
+    }
+
+    public void click4asharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.fourasharp);
+        mp.start();
     }
 
 }
