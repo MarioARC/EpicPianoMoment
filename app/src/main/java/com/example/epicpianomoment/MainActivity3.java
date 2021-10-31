@@ -9,7 +9,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
-public class MainActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
+public class MainActivity3 extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
     private Spinner dropdown;
     private static final String[] items = new String[]{"Select Octave", "Octave 1", "Octave 2", "Octave 3", "Octave 4", "Octave 5", "Octave 6", "Octave 7"};
@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main3);
 
         dropdown = findViewById(R.id.spinner);
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, items);
@@ -33,14 +33,14 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             case 0:
                 break;
             case 1:
+                intent = new Intent(MainActivity3.this, MainActivity.class);
+                startActivity(intent);
                 break;
             case 2:
-                intent = new Intent(MainActivity.this, MainActivity2.class);
+                intent = new Intent(MainActivity3.this, MainActivity2.class);
                 startActivity(intent);
                 break;
             case 3:
-                intent = new Intent(MainActivity.this, MainActivity3.class);
-                startActivity(intent);
                 break;
             case 4:
                 break;
@@ -56,11 +56,5 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     public void onNothingSelected(AdapterView<?> adapterView) {
 
     }
-
-//    public void click(View v)
-//    {
-//        MediaPlayer mp = MediaPlayer.create(this, R.raw.samsung);
-//        mp.start();
-//    }
 
 }

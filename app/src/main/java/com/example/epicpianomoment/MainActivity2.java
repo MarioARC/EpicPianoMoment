@@ -27,23 +27,28 @@ public class MainActivity2 extends AppCompatActivity implements AdapterView.OnIt
 
     public void onItemSelected(AdapterView<?> parent, View v, int pos, long id)
     {
+        Intent intent;
         switch(pos)
         {
             case 0:
                 break;
             case 1:
-                Intent intent = new Intent(MainActivity2.this, MainActivity.class);
+                intent = new Intent(MainActivity2.this, MainActivity.class);
                 startActivity(intent);
                 break;
             case 2:
                 break;
             case 3:
+                intent = new Intent(MainActivity2.this, MainActivity3.class);
+                startActivity(intent);
                 break;
             case 4:
                 break;
             case 5:
                 break;
             case 6:
+                break;
+            case 7:
                 break;
         }
     }
