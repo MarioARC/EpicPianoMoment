@@ -17,126 +17,126 @@
 
     <Button
         android:id="@+id/o5keyC"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="50dp"
         android:layout_height="match_parent"
         android:layout_marginTop="60dp"
         android:backgroundTint="@color/white"
-        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-        />
+        android:onClick="click5c" />
 
     <Button
         android:id="@+id/o5keyD"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="50dp"
         android:layout_height="match_parent"
         android:layout_marginTop="60dp"
         android:layout_toEndOf="@+id/o5keyC"
         android:backgroundTint="@color/white"
-        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-        />
+        android:onClick="click5d" />
 
     <Button
         android:id="@+id/o5keyE"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="50dp"
         android:layout_height="match_parent"
         android:layout_marginTop="60dp"
         android:layout_toEndOf="@+id/o5keyD"
         android:backgroundTint="@color/white"
-        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-        />
+        android:onClick="click5e" />
 
     <Button
         android:id="@+id/o5keyF"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="50dp"
         android:layout_height="match_parent"
         android:layout_marginTop="60dp"
         android:layout_toEndOf="@+id/o5keyE"
         android:backgroundTint="@color/white"
-        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-        />
+        android:onClick="click5f" />
 
     <Button
         android:id="@+id/o5keyG"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="50dp"
         android:layout_height="match_parent"
         android:layout_marginTop="60dp"
         android:layout_toEndOf="@+id/o5keyF"
         android:backgroundTint="@color/white"
-        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-        />
+        android:onClick="click5g" />
 
     <Button
         android:id="@+id/o5keyA"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="50dp"
         android:layout_height="match_parent"
         android:layout_marginTop="60dp"
         android:layout_toEndOf="@+id/o5keyG"
         android:backgroundTint="@color/white"
-        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-        />
+        android:onClick="click5a" />
 
     <Button
         android:id="@+id/o5keyB"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="50dp"
         android:layout_height="match_parent"
         android:layout_marginTop="60dp"
         android:layout_toEndOf="@+id/o5keyA"
         android:backgroundTint="@color/white"
-        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-        />
+        android:onClick="click5b" />
 
     <Button
         android:id="@+id/o5keyCsharp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="40dp"
         android:layout_height="200dp"
-        android:layout_toEndOf="@+id/o5keyC"
         android:layout_marginStart="-20dp"
         android:layout_marginTop="60dp"
+        android:layout_toEndOf="@+id/o5keyC"
         android:backgroundTint="@color/black"
-        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-        />
+        android:onClick="click5csharp" />
 
     <Button
         android:id="@+id/o5keyDsharp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="40dp"
         android:layout_height="200dp"
-        android:layout_toEndOf="@+id/o5keyD"
         android:layout_marginStart="-20dp"
         android:layout_marginTop="60dp"
+        android:layout_toEndOf="@+id/o5keyD"
         android:backgroundTint="@color/black"
-        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-        />
+        android:onClick="click5dsharp" />
 
     <Button
         android:id="@+id/o5keyFsharp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="40dp"
         android:layout_height="200dp"
-        android:layout_toEndOf="@+id/o5keyF"
         android:layout_marginStart="-20dp"
         android:layout_marginTop="60dp"
+        android:layout_toEndOf="@+id/o5keyF"
         android:backgroundTint="@color/black"
-        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-        />
+        android:onClick="click5fsharp" />
 
     <Button
         android:id="@+id/o5keyGsharp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="40dp"
         android:layout_height="200dp"
-        android:layout_toEndOf="@+id/o5keyG"
         android:layout_marginStart="-20dp"
         android:layout_marginTop="60dp"
+        android:layout_toEndOf="@+id/o5keyG"
         android:backgroundTint="@color/black"
-        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-        />
+        android:onClick="click5gsharp" />
 
     <Button
         android:id="@+id/o5keyAsharp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="40dp"
         android:layout_height="200dp"
-        android:layout_toEndOf="@+id/o5keyA"
         android:layout_marginStart="-20dp"
         android:layout_marginTop="60dp"
+        android:layout_toEndOf="@+id/o5keyA"
         android:backgroundTint="@color/black"
-        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-        />
+        android:onClick="click5asharp" />
 
 </RelativeLayout>
