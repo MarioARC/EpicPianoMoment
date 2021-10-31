@@ -3,6 +3,7 @@ package com.example.epicpianomoment;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -63,6 +64,78 @@ public class MainActivity5 extends AppCompatActivity implements AdapterView.OnIt
 
     public void onNothingSelected(AdapterView<?> adapterView) {
 
+    }
+
+    public void click5c(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.fivec);
+        mp.start();
+    }
+
+    public void click5d(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.fived);
+        mp.start();
+    }
+
+    public void click5e(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.fivee);
+        mp.start();
+    }
+
+    public void click5f(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.fivef);
+        mp.start();
+    }
+
+    public void click5g(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.fiveg);
+        mp.start();
+    }
+
+    public void click5a(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.fivea);
+        mp.start();
+    }
+
+    public void click5b(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.fiveb);
+        mp.start();
+    }
+
+    public void click5csharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.fivecsharp);
+        mp.start();
+    }
+
+    public void click5dsharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.fivedsharp);
+        mp.start();
+    }
+
+    public void click5fsharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.fivefsharp);
+        mp.start();
+    }
+
+    public void click5gsharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.fivegsharp);
+        mp.start();
+    }
+
+    public void click5asharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.fiveasharp);
+        mp.start();
     }
 
 }
