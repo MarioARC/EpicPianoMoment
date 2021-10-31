@@ -3,6 +3,7 @@ package com.example.epicpianomoment;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -63,6 +64,84 @@ public class MainActivity7 extends AppCompatActivity implements AdapterView.OnIt
 
     public void onNothingSelected(AdapterView<?> adapterView) {
 
+    }
+
+    public void click7c(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.sevenc);
+        mp.start();
+    }
+
+    public void click7d(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.sevend);
+        mp.start();
+    }
+
+    public void click7e(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.sevene);
+        mp.start();
+    }
+
+    public void click7f(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.sevenf);
+        mp.start();
+    }
+
+    public void click7g(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.seveng);
+        mp.start();
+    }
+
+    public void click7a(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.sevena);
+        mp.start();
+    }
+
+    public void click7b(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.sevenb);
+        mp.start();
+    }
+
+    public void click8c(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.eightc);
+        mp.start();
+    }
+
+    public void click7csharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.sevencsharp);
+        mp.start();
+    }
+
+    public void click7dsharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.sevendsharp);
+        mp.start();
+    }
+
+    public void click7fsharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.sevenfsharp);
+        mp.start();
+    }
+
+    public void click7gsharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.sevengsharp);
+        mp.start();
+    }
+
+    public void click7asharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.sevenasharp);
+        mp.start();
     }
 
 }
