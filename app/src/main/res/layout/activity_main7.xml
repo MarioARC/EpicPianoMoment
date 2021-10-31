@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/purple_200"
+    tools:context=".MainActivity7">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown" />
+
+    <Button
+        android:id="@+id/o7keyC"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/white"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        />
+
+    <Button
+        android:id="@+id/o7keyD"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_toEndOf="@+id/o7keyC"
+        android:backgroundTint="@color/white"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        />
+
+    <Button
+        android:id="@+id/o7keyE"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_toEndOf="@+id/o7keyD"
+        android:backgroundTint="@color/white"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        />
+
+    <Button
+        android:id="@+id/o7keyF"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_toEndOf="@+id/o7keyE"
+        android:backgroundTint="@color/white"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        />
+
+    <Button
+        android:id="@+id/o7keyG"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_toEndOf="@+id/o7keyF"
+        android:backgroundTint="@color/white"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        />
+
+    <Button
+        android:id="@+id/o7keyA"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_toEndOf="@+id/o7keyG"
+        android:backgroundTint="@color/white"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        />
+
+    <Button
+        android:id="@+id/o7keyB"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_toEndOf="@+id/o7keyA"
+        android:backgroundTint="@color/white"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        />
+
+    <Button
+        android:id="@+id/o8keyC"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_toEndOf="@+id/o7keyB"
+        android:backgroundTint="@color/white"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        />
+
+    <Button
+        android:id="@+id/o7keyCsharp"
+        android:layout_width="40dp"
+        android:layout_height="200dp"
+        android:layout_toEndOf="@+id/o7keyC"
+        android:layout_marginStart="-20dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/black"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        />
+
+    <Button
+        android:id="@+id/o7keyDsharp"
+        android:layout_width="40dp"
+        android:layout_height="200dp"
+        android:layout_toEndOf="@+id/o7keyD"
+        android:layout_marginStart="-20dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/black"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        />
+
+    <Button
+        android:id="@+id/o7keyFsharp"
+        android:layout_width="40dp"
+        android:layout_height="200dp"
+        android:layout_toEndOf="@+id/o7keyF"
+        android:layout_marginStart="-20dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/black"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        />
+
+    <Button
+        android:id="@+id/o7keyGsharp"
+        android:layout_width="40dp"
+        android:layout_height="200dp"
+        android:layout_toEndOf="@+id/o7keyG"
+        android:layout_marginStart="-20dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/black"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        />
+
+    <Button
+        android:id="@+id/o7keyAsharp"
+        android:layout_width="40dp"
+        android:layout_height="200dp"
+        android:layout_toEndOf="@+id/o7keyA"
+        android:layout_marginStart="-20dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/black"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        />
+
+</RelativeLayout>
