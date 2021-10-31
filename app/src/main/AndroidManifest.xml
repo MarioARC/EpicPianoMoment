@@ -11,25 +11,32 @@
         android:theme="@style/Theme.EpicPianoMoment">
         <activity
             android:name=".MainActivity7"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Octave 7/8"/>
         <activity
             android:name=".MainActivity6"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Octave 6"/>
         <activity
             android:name=".MainActivity5"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Octave 5"/>
         <activity
             android:name=".MainActivity4"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Octave 4"/>
         <activity
             android:name=".MainActivity3"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Octave 3"/>
         <activity
             android:name=".MainActivity2"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Octave 2"/>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:label="Octave 0/1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
