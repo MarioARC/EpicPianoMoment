@@ -3,6 +3,7 @@ package com.example.epicpianomoment;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -63,6 +64,78 @@ public class MainActivity6 extends AppCompatActivity implements AdapterView.OnIt
 
     public void onNothingSelected(AdapterView<?> adapterView) {
 
+    }
+
+    public void click6c(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.sixc);
+        mp.start();
+    }
+
+    public void click6d(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.sixd);
+        mp.start();
+    }
+
+    public void click6e(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.sixe);
+        mp.start();
+    }
+
+    public void click6f(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.sixf);
+        mp.start();
+    }
+
+    public void click6g(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.sixg);
+        mp.start();
+    }
+
+    public void click6a(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.sixa);
+        mp.start();
+    }
+
+    public void click6b(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.sixb);
+        mp.start();
+    }
+
+    public void click6csharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.sixcsharp);
+        mp.start();
+    }
+
+    public void click6dsharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.sixdsharp);
+        mp.start();
+    }
+
+    public void click6fsharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.sixfsharp);
+        mp.start();
+    }
+
+    public void click6gsharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.sixgsharp);
+        mp.start();
+    }
+
+    public void click6asharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.sixasharp);
+        mp.start();
     }
 
 }
