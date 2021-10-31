@@ -72,10 +72,88 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         mp.start();
     }
 
-//    public void click(View v)
-//    {
-//        MediaPlayer mp = MediaPlayer.create(this, R.raw.samsung);
-//        mp.start();
-//    }
+    public void click0b(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.zerob);
+        mp.start();
+    }
+
+    public void click1c(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.onec);
+        mp.start();
+    }
+
+    public void click1d(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.oned);
+        mp.start();
+    }
+
+    public void click1e(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.onee);
+        mp.start();
+    }
+
+    public void click1f(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.onef);
+        mp.start();
+    }
+
+    public void click1g(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.oneg);
+        mp.start();
+    }
+
+    public void click1a(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.onea);
+        mp.start();
+    }
+
+    public void click1b(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.oneb);
+        mp.start();
+    }
+
+    public void click0asharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.zeroasharp);
+        mp.start();
+    }
+
+    public void click1csharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.onecsharp);
+        mp.start();
+    }
+
+    public void click1dsharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.onedsharp);
+        mp.start();
+    }
+
+    public void click1fsharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.onefsharp);
+        mp.start();
+    }
+
+    public void click1gsharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.onegsharp);
+        mp.start();
+    }
+
+    public void click1asharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.oneasharp);
+        mp.start();
+    }
 
 }
