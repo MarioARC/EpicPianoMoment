@@ -3,6 +3,7 @@ package com.example.epicpianomoment;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -65,4 +66,75 @@ public class MainActivity2 extends AppCompatActivity implements AdapterView.OnIt
 
     }
 
+    public void click2c(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.twoc);
+        mp.start();
+    }
+
+    public void click2d(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.twod);
+        mp.start();
+    }
+
+    public void click2e(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.twoe);
+        mp.start();
+    }
+
+    public void click2f(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.twof);
+        mp.start();
+    }
+
+    public void click2g(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.twog);
+        mp.start();
+    }
+
+    public void click2a(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.twoa);
+        mp.start();
+    }
+
+    public void click2b(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.twob);
+        mp.start();
+    }
+
+    public void click2csharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.twocsharp);
+        mp.start();
+    }
+
+    public void click2dsharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.twodsharp);
+        mp.start();
+    }
+
+    public void click2fsharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.twofsharp);
+        mp.start();
+    }
+
+    public void click2gsharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.twogsharp);
+        mp.start();
+    }
+
+    public void click2asharp(View v)
+    {
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.twoasharp);
+        mp.start();
+    }
 }
